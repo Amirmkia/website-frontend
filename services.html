@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Business, Service">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <title>خدمات</title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/LineIcons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+ 
+</script>
+      <script>
+  wow = new WOW(
+    {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // change this if you are not using animate.css
+        offset:       0,          // default
+        mobile:       true,       // keep it on mobile
+        live:         true        // track if element updates
+      }
+    )
+   wow.init();
+</script>
+ <style>
+  .inline-photo {
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+  will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+  opacity: 1;
+  transform: rotateZ(0deg);
+}      
+</style>          
+  <!-- Header Section Start -->
+    <header id="home" class="hero-area"> 
+ <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar" style = "background-color: #250242;padding-bottom: -50px;">
+               <div class = "container-sm" style="width: 80%;margin-left: 10%;">
+                 <div class = "row">
+                   <div class = "col" id = "navbar-col">
+                       <div class = "container-sm">
+                           <div class = "row">
+                              <div class = "col-2">
+                                     <a href="aaaa"><img class = "logo-rastad" src="img/logo-25.svg" alt=""></a>
+                              </div>
+                              <div class = "col-1">
+                                 <div class="dropdown">
+                                       <div class = "container">
+                                        <div class = "row">
+                                            <div class = "col-1">
+                                              <img src = "img/ninja.png" class = "ninja-profile-menu">
+                                            </div>   
+                                        </div>
+                                       </div>
+                     <div class = "container">
+                      <div class = "row">
+                          <div class = "col-md-12">
+                          <div class="dropdown-content">
+                        <div class = "container">
+                          <div class = "row justify-content-around">
+                            <div class = "col-6">
+                                  <p class = "text-profile">بهروز ابراهیمی</p>
+                                  <p>amirmatmms@gmail.com</p>
+                            </div>
+                            <div class = "col-6 ">
+                               <img src = "img/ninja.png" class = "ninja-profile">
+                            </div>
+                              <div class = "col-md-12">
+                              <a href = "#" class = "tamdid-button">پروفایل من</a>
+                                </div> 
+                          </div> 
+                        </div>
+                            <hr class="profile-everywhere-hr"/>  
+                        <div class = "container">
+                          <div class = "row">
+                            <div class = "col-md-12">
+                                <h6>: اشتراک های فعال -</h6>
+                            </div>
+                            <div class = "col-md-12">
+                                <p style = "font-size: 12px;">اشتراک یک ساله  شما به مدت 6 ماه و 12 روز و5 ساعت مانده است</p>
+                                </div>
+                              <div class = "col-md-12">
+                               <div class = "empty-profile"></div>
+                              </div>
+                                <div class = "col-md-12">
+                              <a href = "#" class = "tamdid-button">تمدید این اشتراک</a>
+                                </div>  
+                          </div>      
+                        </div>
+                              <hr class="profile-everywhere-hr" /> 
+                        <div class = "container">
+                          <div class = "row">
+                            <div class = "col-md-12">
+                                <h6>: تعداد کوپن های شما -</h6>
+                            </div>
+                            <div class = "col-md-12">
+                                <p style = "font-size: 12px;">شما تا به حال توانسته اید 120 عدد کوپن کسب کنید</p>
+                                 <a href = "#" class = "freez-button">طریقه استفاده از کوپن</a>
+                            </div>
+                          </div>      
+                        </div>      
+                        <hr class="profile-everywhere-hr" />
+                        <a  href="#" class = "profile-menu-logout" style="color: #FF7300;margin-right: 10px;cursor: pointer;">خروج</a>
+                     </div>
+                         </div>
+                      </div>
+                     </div>
+                  </div>     
+                           </div>
+                           <div class = "col-md-9 col-xs-12">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                         <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+                          <label for="checkbox3">
+                            <div class="hamburger hamburger3">
+                              <span class="bar bar1"></span>
+                              <span class="bar bar2"></span>
+                              <span class="bar bar3"></span>
+                              <span class="bar bar4"></span>
+                            </div>
+                          </label>    
+                        </button>
+                       <div class="collapse navbar-collapse" id="navbarCollapse" style = "float: right;">
+                          <input type="checkbox" id="ham-menu">
+                             <div class = "out-btn"></div>
+                                 <script>
+                                      var toastHTML = '<span class = "toast-span">{{message}}</span>';
+                                      M.toast({html: toastHTML, displayLength:2000});
+                                 </script>
+            <ul class="navbar-nav ">
+                <li class = "nav-item">
+               <a class = "nav-link page-scroll" href ="#contact">  
+               </a>   
+              </li> 
+              <li class="nav-item">
+                <a class = "sign-out-navbar" href="#showcase"><div class="signout-btn">عضویت</div></a>
+              </li>
+              <li class="nav-item">     
+                <a class="sign-in-navbar" href="#showcase"><div class="login-btn">ورود</div></a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#showcase" id ="myButton">پشتیبانی</a>
+              </li>       
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#pricing">درباره ما</a>
+              </li>     
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#team">وبلاگ</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#blog">آموزش</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact">خدمات</a>
+              </li> 
+            </ul>
+          </div>                          
+                </div>           
+                           
+                       </div>
+                       </div>  
+                   </div>
+                 </div>
+               </div>
+      </nav> 
+        <div class="container-sm">  
+        <div class="row space-100">
+             <img class ="right-back-packages inline-photo show-on-scroll" src="img/right-back-services.svg" alt="">
+            <img class ="left-back-packages inline-photo show-on-scroll" src="img/left-back-services.svg" alt="">
+          <div class="col-lg-12 col-md-12 col-xs-12 p-0">     
+            <div class="intro-img">
+                <div class = "box-shadow" id = "box-shad">              
+                <div class = "intro-box">
+                    <section class="business-plan-main">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-md-6 pl-4">
+            <div class="services2-item-info">
+              <h1 class = "h3-narenji sarmayegozari">سرمایه گذاری در بازار رمزارزها
+</h1> 
+              <br/>
+              <p  class = "motekhassesin">
+                متخصصین و تحلیلگران راستاد میتوانند شما را در انتخاب بهترین مسیر برای سرمایه گذاری در این بازار راهنمایی کنند
+                <br><br/>
+                  جهت رزرو زمان مشاوره، لینک زیر را دنبال کنید
+
+              </p>
+              <a class="btn btn-common-services" href="#analize">مشاهده</a>
+            </div>
+          </div>
+            <div class="col-lg-6 col-md-6 pl-4">
+           <div class="services-item-img">
+              <img class ="systems inline-photo show-on-scroll" src="img/services-header.svg" alt="">
+            </div>
+          </div>
+          <!-- End Col -->
+        </div>
+      </div>
+    </section>
+                </div>
+            </div> 
+              </div>
+          </div>
+        </div> 
+        </div> 
+    </header>
+    </head>
+      <body>
+    <!-- Header Section End --> 
+    <!-- Services Section Start -->
+     <div class = "cover-over">
+      <div class = "container-sm">
+          <div class="row" id="five-fuccking-five"> 
+            <!-- Start Col -->
+            <div class = "col-1"></div>
+          <div class="col-md-2">
+              <a href="#library" class = "five-feet-a">
+              <div class = "five-feet-apart">
+            <div class="services-item text-center">
+                 
+                       <div class="col" style="flex-grow:-2;">
+                          <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+                            <lord-icon
+                               src="https://cdn.lordicon.com/soseozvi.json"
+                               trigger="hover"
+                               colors="primary:#ffffff,secondary:#ffffff"
+                               style="width:80px;height:80px;">
+                            </lord-icon>
+                       </div>
+                       <div class="col" style="flex-grow:-2;">
+                           <div class = "first">
+                             <h6 class = "four-h4">راستاد بات</h6>
+                           
+                           </div>
+                       </div>
+            </div>
+          </div>
+                  </a>
+              </div>
+          <!-- End Col --> 
+          <!-- Start Col -->
+          <div class="col-md-2">
+              <a href="#forum">
+              <div class = "five-feet-apart">
+            <div class="services-item text-center">
+                    <div class="col">
+                       <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+                          <lord-icon
+                             src="https://cdn.lordicon.com/qhviklyi.json"
+                             trigger="hover"
+                             colors="primary:#ffffff,secondary:#ffffff"
+                             style="width:80px;height:80px;">
+                          </lord-icon>
+                    </div>
+                    <div class="col" style="flex-grow:-2;">
+                        <div class = "first">
+                         <h6>مدیریت سبد</h6>
+                        </div>
+                    </div>
+            </div>
+          </div>
+                  </a>
+              </div>
+          <!-- End Col -->  
+          <!-- Start Col -->
+          <div class="col-md-2">
+               <a href="#analize">
+              <div class = "five-feet-apart">
+            <div class="services-item text-center">
+                       <div class="col">
+                           <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+                               <lord-icon
+                                 src="https://cdn.lordicon.com/rgyftmhc.json"
+                                 trigger="hover"
+                                 colors="primary:#ffffff,secondary:#ffffff"
+                                 stroke="38"
+                                 style="width:80px;height:80px;">
+                               </lord-icon>
+                       </div>
+                       <div class="col" style="flex-grow:-2;">
+                           <div class = "first">
+                              <h7>مشاوره و سرمایه گذاری</h7>
+                           </div>
+                 </div>
+            </div>
+          </div>
+                   </a>
+              </div>
+          <!-- End Col --> 
+          <!-- Start Col -->
+          <div class="col-md-2">
+              <a href="#signal">
+              <div class = "five-feet-apart">
+              <div class="services-item text-center">
+                       <div class="col">
+                           <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+                           <lord-icon
+                             src="https://cdn.lordicon.com/uukerzzv.json"
+                             trigger="hover"
+                             colors="primary:#ffffff,secondary:#ffffff"
+                             stroke="32"
+                             style="width:80px;height:80px;">
+                 </lord-icon>
+                       </div>
+                       <div class="col" style="flex-grow:-2;">
+                           <div class = "first">
+                              <h6>تحلیل در بازار</h6>
+                           </div>
+                  </div>
+            </div>
+          </div>
+                  </a>
+              </div>
+          <!-- End Col -->     
+          <!-- Start Col -->
+          <div class="col-md-2">
+               <a href="#traiderhal">
+              <div class = "five-feet-apart">
+                   <div class="services-item text-center">
+                            <div class="col">
+                                 <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+                             <lord-icon
+                                 src="https://cdn.lordicon.com/gqdnbnwt.json"
+                                 trigger="hover"
+                                 colors="primary:#ffffff,secondary:#ffffff"
+                                 style="width:80px;height:80px;">
+                             </lord-icon>
+                            </div>
+                            <div class="col" style="flex-grow:-2;">
+                               <div class = "first">
+                                <h6>معامله در بازار</h6>
+                                </div>
+                     </div>
+                       </div>
+                       </div>
+               </a>
+              </div>
+          <!-- End Col -->
+            </div>
+          </div>
+       <!-- Services Section End -->
+        </div>
+        <div class = "empty-fucking-place2"></div>
+       <div class = "three-section-over">
+              <div id="traiderhal">
+        </div>
+        <div class = "cover-over">
+      <section id="business-plan" class="business-plan wow slideInRight box" data-wow-duration="2s">
+          
+          
+          <div class="container-sm">        
+         <div class = "header-forum">          
+         </div>
+       
+        <div class="row justify-content-end">
+          <!-- Start Col -->
+               <div class= "col-1"></div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+             <div class="business-item-img">
+              <img src="img/services-signal.svg" class ="books3-svg inline-photo show-on-scroll"  alt="">
+            </div>
+          </div>
+             <div class= "col-1"></div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+               <div class="books-item-info">
+              <h1 class = "h3-narenji"><b>
+                  معامله یا ترید در بازار رمز ارزها
+</b></h1><br>
+              <p class = "font-size"> 
+                  معامله در بازارهای سرمایه، همواره ریسک بزرگی را به همراه دارد و بزرگترین معامله گران دنیا نیز همیشه به دنبال پاسخ یک سوال هستند
+                 <br><br>
+                  <b style = "font-size: 18px;">"بازار به کدام سمت می رود؟"</b>
+                 <br>
+                  پیدا کردن پاسخ به این سوال، نیازمند تخصص و تجربه فردی و گروهی
+                  <br>
+                    می باشد
+                 <br>
+                  مجموعه راستاد، راهکارهایی  تخصصی برای معامله گران و سرمایه گذاران در این بازار ارائه می دهد
+              </p>
+              <br>
+              <a class="services-btn2" href="#">خدمات معامله در بازار</a>
+            </div>
+          </div>
+          <div class= "col-1"></div>
+        </div>
+       
+      </div>
+    </section>
+     </div>
+      <div id="signal"></div>
+    <!-- Services Section End -->
+      <section id="business-plan" class="signal-plan">
+      <div class="container-sm">        
+         <div class = "header-forum">          
+         </div>
+       
+       
+        <div class="row justify-content-end">
+          <!-- Start Col -->
+               <div class= "col-1"></div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+               
+            <div class="books-item-info-library">
+              <h2 class = ""><b>تحلیل تکنیکال و فاندامنتال
+                در بازار رمزارزها
+
+</b></h2><br>
+
+              <p class = "font-size">
+                  چنانچه علاقمند به یادگیری صفر تا صد تحلیل تکنیکال هستید و یا قصد فعالیت و همکاری به عنوان یک تحلیلگر تکنیکال یا فاندامنتال را دارید
+<br>
+                  مجموعه راستاد، فضایی تخصصی و رقابتی را کاملا رایگان، در اختیار شما قرار می دهد
+جهت اطلاعات بیشتر دکمه زیر را فشار دهید
+</p>
+              <br>
+             <input type = "submit" class="services-btn" onclick = "showingchannel()" value = "ورود به دنیای تحلیلگران">
+            </div>
+          </div>
+             <div class= "col-1"></div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="business-item-img" id = "businessunshowing"> 
+              <img src="img/services-analize.svg" class ="manitor-svg rellax inline-photo show-on-scroll" id="fixed-image" alt="" data-rellax-speed="4">
+            </div>
+
+            <div class = "services-hidden-channel" id = "businessshowingchannel">
+               <div class = "container">
+                <div class = "row">
+                 <div class = "col-md-12">
+                  <h5 class = "services-hidden-channel-h5">: برای شروع عضو کانال های زیر شوید</h5>   
+                 </div>     
+                 <div class = "col-md-12">
+                  <input type = "submit"  class = "services-hidden-channel-a" value = "کانال تحلیل تکنیکال راستاد"> 
+                 </div>
+                     <div class = "col-md-12">
+                  <input type = "submit"  class = "services-hidden-channel-a" value = "گروه فروم راستاد"> 
+                 </div>
+                     <div class = "col-md-12">
+                  <input type = "submit"  class = "services-hidden-channel-a" value = "گروه کتابخانه راستاد"> 
+                 </div>
+                 <div class = "col-md-12">
+                  <input type = "submit"  class = "services-hidden-channel-a" value = "گروه تحلیل فاندامنتال راستاد"> 
+                 </div>
+                     <div class = "col-md-12">
+                  <input type = "submit"  class = "services-hidden-channel-a" value = "نقشه راه همکاری"> 
+                 </div>
+                 <div class = "col-md-12">
+                  <h5 class = "services-hidden-channel-h5">توجه داشته باشید که پیشنهاد فرصتهای همکاری به صورت هفتگی در کانال ها اعلام می شود </h5>   
+                 </div>  
+                    <div class = "col-md-12">
+                  <input type = "submit"  class = "services-hidden-channel-close" value = "بستن" onclick = "unshowingchannel()"> 
+                 </div>
+                </div> 
+               </div>
+            </div>
+          </div>
+             <div class= "col-1"></div>
+        </div>
+       
+       
+      </div>
+    </section>
+    <!-- Services Section End -->
+           <div id="analize"></div>
+           <div class = "cover-over">
+      <section id="business-plan" class="analize-plan wow slideInLeft box" data-wow-duration="2s">
+      <div class="container-sm">
+         <div class = "header-forum">   
+         </div>
+        <div class="row justify-content-end">
+          <!-- Start Col -->
+            <div class= "col-1"></div>
+            
+              <div class = "services-box-hidden-desktop">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+             
+            <div class="books-item-info-forum">
+              <h2><b>مشاوره برای سرمایه گذاری
+                در صنعت رمزارزها
+
+</b></h2><br/>
+                <h2><b class = "h3-narenji">
+</b></h2>
+              <p class = "enji font-size">
+                دنیای رمزارزها، فرصت های گوناگونی را برای سرمایه گذاران با معیارهای ریسک پذیری متفاوت فراهم می آورد
+                 <br>
+                   انتخاب بین سرمایه گذاری در بازار سرمایه، صنعت ماینینگ، فناوری بلاک چین ، صرافی 
+                 <label>NFT ،</label>
+                  ها و بسیاری فرصت های دیگر همواره از چالش های بزرگ سرمایه داران بوده است
+ <br>
+                  مجموعه راستاد، با بهره گیری از تخصص و تجربه افراد شناس این حوزه، می تواند در نحوه 
+                   <label class = "h3-narenji">، انتخاب</label>
+                 <label class = "h3-narenji"> توزیع دارایی </label>
+                  و
+                 <label class = "h3-narenji"> اجرای آن </label>
+                  بهترین مسیر را به شما نشان دهد
+
+              </p>
+              <br>
+              <input type = "submit" class="services-btn" onclick = "alarmshowing2()" value = "رزرو زمان مشاوره">
+            </div>
+            </div>   
+          </div>
+            
+            
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="business-item-img">
+              <img src="img/services-forum.svg" class ="books-svg inline-photo show-on-scroll"  alt="" id = "services-hidden-img"> 
+               <div class = "container">
+       <div class = "row">
+        <div class = "moshavere-alarm-box2" id = "freez-alarm2">
+            <p style = "margin-top: 40px;margin-bottom: 20px;">درخواست شما برای رزرو زمان مشاوره ثبت شد . در اسرع وقت با شما تماس گرفته خواهد شد</p>
+            <input type = "submit" class = "services-hidden-channel-close" value = "بستن" onclick = "alarmunshowing2()" >
+        </div>   
+       </div>
+      </div>   
+            </div>
+          </div>
+             <div class= "col-1"></div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+               <div class = "services-box-hidden-mobile">
+            <div class="books-item-info-forum">
+              <h2><b>مشاوره برای سرمایه گذاری
+                در صنعت رمزارزها
+
+</b></h2><br/>
+                <h2><b class = "h3-narenji">
+</b></h2>
+              <p class = "enji font-size">
+                دنیای رمزارزها، فرصت های گوناگونی را برای سرمایه گذاران با معیارهای ریسک پذیری متفاوت فراهم می آورد
+                 <br>
+                   انتخاب بین سرمایه گذاری در بازار سرمایه، صنعت ماینینگ، فناوری بلاک چین ، صرافی 
+                 <label>NFT ،</label>
+                  ها و بسیاری فرصت های دیگر همواره از چالش های بزرگ سرمایه داران بوده است
+ <br>
+                  مجموعه راستاد، با بهره گیری از تخصص و تجربه افراد شناس این حوزه، می تواند در نحوه 
+                   <label class = "h3-narenji">، انتخاب</label>
+                 <label class = "h3-narenji"> توزیع دارایی </label>
+                  و
+                 <label class = "h3-narenji"> اجرای آن </label>
+                  بهترین مسیر را به شما نشان دهد
+
+              </p>
+              <br>
+              <input type = "submit" class="services-btn" onclick = "alarmshowing2()" value = "رزرو زمان مشاوره">
+            </div>
+            </div>   
+          </div>
+        </div>
+      </div>
+    </section>
+     </div>
+      <!-- Services Section End -->
+      <!-- Services Section End -->
+      </div>
+        <div class = "empty-fucking-place"></div>
+          <div id="forum"></div>
+           <section id="business-plan" class="forum-plan wow slideInRight box" data-wow-duration="2s">
+      <div class="container-sm">
+         <div class = "header-forum">  
+         </div>
+        <div class="row justify-content-center">
+          <!-- Start Col -->
+            <div class= "col-1"></div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="books-item-info-services">
+              <h1 class = "h3-narenji"><b>مدیریت سبد دارایی
+</b></h1>
+              <p class = "font-size" style = " color: #4F4E4E;">
+                استراتژی انتخاب و چیدمان سبد دارایی، تنها چالش معامله گران و هولدرها نیست
+                <br>
+                اطمینان خاطر از امنیت دارایی و نظارت و بهینه سازی سبد دارایی، از مهم ترین نگرانی های سرمایه گذاران است
+                <br>
+مجموعه راستاد، با استفاده از روش 
+                <label>API TRADING </label>
+                بدون دسترسی مستقیم به کیف پول شما، می تواند با نظارت خودتان، سبد دارایی شما را مدیریت کند
+                <br>
+                جهت اطلاعات بیشتر می توانید با ارسال کلمه 
+                 <b>"مدیریت سبد دارایی"</b> 
+                  به بخش پشتیبانی مشاوره لازم را دریافت کنید
+  
+              </p>
+              <br>
+              <a class="services-btn2" href="#">ارتباط با پشتیبانی</a>
+            </div>
+          </div>
+             
+           <div class="col-lg-6 col-md-6 col-sm-12">
+               <div class="business-item-img">
+              <img src="img/services-basket.svg" class ="books2-svg inline-photo show-on-scroll"  alt="">     
+            </div>
+          </div>
+          <div class= "col-2"></div>
+        </div>
+      </div>
+    </section>
+      <!-- Services Section End -->	
+      <!-- Services Section Start -->
+          <div id="library"></div>
+      <section id="business-plan" class="library-plan">
+         <div class="container-sm">
+         <div class = "header-forum">   
+         </div>
+        <div class="row justify-content-start">
+          <!-- Start Col -->
+             <div class = "services-box-hidden-desktop">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+             
+           <div class="books-item-info-traiders">
+              <h1><b>راستاد بات
+</b></h1>
+               <h3 class = "h3-narenji">همراه هوشمند معامله در بازار
+</h3>
+              <p class = "font-size">مجموعه بات های هوشمند راستاد با عنوان تجاری "راستاد بات"، شامل بات های کپی ترید و اتو ترید هستند که با استفاده از استراتژی های تیم تحلیلگران راستاد، مدرن ترین و بهینه ترین راهکار را برای افراد با ریسک پذیری پایین، ارائه می دهند.
+همچنین پروژه راستاد بات، یکی از اهداف میانی مجموعه جهت اجرای پروژه بلاک چینی می باشد که مشارکت در آن برای سرمایه گذاران ارزشی بی پایان دارد.
+</p>
+               <br>
+                <a class="services-btn" href="#">به زودی فعال خواهد شد</a>
+            </div>   
+          </div>
+            </div>
+           <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="business-item-img">
+              <img src="img/services-bot.svg" class ="books5-svg inline-photo show-on-scroll"  alt="">
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class = "services-box-hidden-mobile">
+           <div class="books-item-info-traiders">
+              <h1><b>راستاد بات
+</b></h1>
+               <h3 class = "h3-narenji">همراه هوشمند معامله در بازار
+</h3>
+              <p class = "font-size">مجموعه بات های هوشمند راستاد با عنوان تجاری "راستاد بات"، شامل بات های کپی ترید و اتو ترید هستند که با استفاده از استراتژی های تیم تحلیلگران راستاد، مدرن ترین و بهینه ترین راهکار را برای افراد با ریسک پذیری پایین، ارائه می دهند.
+همچنین پروژه راستاد بات، یکی از اهداف میانی مجموعه جهت اجرای پروژه بلاک چینی می باشد که مشارکت در آن برای سرمایه گذاران ارزشی بی پایان دارد.
+</p>
+               <br>
+                <a class="services-btn" href="#">به زودی فعال خواهد شد</a>
+            </div>   
+          </div>
+            </div>
+           <div class= "col-3"></div>
+        </div>
+      </div>
+    </section>
+          <div class = "container-sm">
+           <div class = "row">
+            <div class = "services-blanking-top-footer">
+               
+            </div>   
+           </div>
+          </div>
+          <footer class = "about-footer">
+            <div class = 'about-foorter-empty-space'></div>
+                <div class = "container">
+                    <div class = "row">
+                    <div class = "col-md-3"></div>
+                    <div class = "col-md-6">
+                    <div class = "container">
+                     <div class = "row justify-content-md-center">
+                      <div class = "col-md-6">
+                        <div class = 'container'>
+                         <div class = 'row justify-content-md-center'>
+                          <div class = "col-md-12">
+                          <div class = 'container'>
+                           <div class = "row justify-content-md-center">
+                            <div class = "col-1"> <a class="facebook" href="#"><i class="fa fa-facebook"></i></a></div>
+                            <div class = "col-1"> <a class="google" href="#"><i class="fa fa-linkedin"></i></a></div>
+                            <div class = "col-1"><a class="facebook" href="#"><i class="fa fa-telegram"></i></a></div>
+                            <div class = "col-1"><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></div>
+                            <div class = "col-1"><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></div>
+                           </div>
+                          </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                    </div>  
+                    <div class = "container">
+                     <div class = "row justify-content-md-center">
+                      <div class = "col-md-12">
+                        <p class = "about-footer-location">
+                                  تهران ، نیاوران ، خیابان پاسداران، مجتمع اطلس مال
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                  </svg>
+                               </p>
+                      </div>
+                     </div>
+                    </div>
+                    <div class = "container">
+                     <div class = "row justify-content-md-center">
+                      <div class = "col-md-12">
+                        <p class = "about-footer-time">
+                              ساعت کاری مجموعه : شنبه تا چهارشنبه 9 الی 18 پنجشنبه ها 9 الی 14
+                              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                                <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                                <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                              </svg>
+                             </p>
+                      </div>
+                     </div>
+                    </div>
+                    <div class = "container">
+                     <div class = "row justify-content-md-center">
+                      <div class = "col-md-12">
+                        <p class = "about-footer-time">
+                          تمام حقوق مادی و معنوی برای شرکت راستاد محفوظ است  
+                        </p>
+                      </div>
+                     </div>
+                    </div>
+                      </div>
+                    <div class = "col-md-3"></div>
+                            </div>                    
+                        <div class = 'about-foorter-empty-space'></div>
+                    </div>
+                </div>
+      
+           </footer>
+      <!-- Services Section End -->
+     <!-- Preloader -->
+    <!-- End Preloader -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>      
+    <script src="js/jquery.nav.js"></script>    
+    <script src="js/scrolling-nav.js"></script>    
+    <script src="js/jquery.easing.min.js"></script>     
+    <script src="js/nivo-lightbox.js"></script>     
+    <script src="js/jquery.magnific-popup.min.js"></script>      
+    <script src="js/main.js"></script>
+            <script>
+    
+     function showingchannel(){
+         document.getElementById("businessunshowing").style.display = "none";
+         document.getElementById("businessshowingchannel").style.display = "block";
+         
+     }           
+     function unshowingchannel(){
+        document.getElementById("businessshowingchannel").style.display = "none"; 
+        document.getElementById("businessunshowing").style.display = "block";
+     }           
+                
+                
+                
+                
+       var a_link = document.querySelectorAll(".a-link");
+// Handle mouse over/out event on links
+a_link.forEach(e => e.addEventListener('mouseenter', handleMouseEnter));
+a_link.forEach(e => e.addEventListener('mouseleave', handleMouseLeave));
+window.addEventListener('mousemove', handleMouseMove);
+// Move the cursor in dom/window
+function handleMouseMove(event) {
+  var cursor_top = event.pageY - (cursor.clientHeight / 2);
+  var cursor_left = event.pageX - (cursor.clientWidth / 2);
+  var circle_top = event.pageY - (circle.clientHeight / 2);
+  var circle_left = event.pageX - (circle.clientWidth / 2);
+  cursor.style.top = cursor_top + 2 + 'px';
+  cursor.style.left = cursor_left + 2 + 'px';
+  circle.style.top = circle_top + 'px';
+  circle.style.left = circle_left + 'px';
+}
+// event: mouse enter on link
+function handleMouseEnter() {
+  cursor.classList.add('hovered');
+  circle.classList.add('hovered');
+}
+// event: mouse leave on link
+function handleMouseLeave() {
+  cursor.classList.remove('hovered');
+  circle.classList.remove('hovered');
+}  
+    
+            </script>  
+            <script>
+  // Detect request animation frame
+var scroll = window.requestAnimationFrame ||
+             // IE Fallback
+             function(callback){ window.setTimeout(callback, 1000/60)};
+var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
+
+function loop() {
+
+    Array.prototype.forEach.call(elementsToShow, function(element){
+      if (isElementInViewport(element)) {
+        element.classList.add('is-visible');
+      } else {
+        element.classList.remove('is-visible');
+      }
+    });
+
+    scroll(loop);
+}
+
+// Call the loop for the first time
+loop();
+
+// Helper function from: http://stackoverflow.com/a/7557433/274826
+function isElementInViewport(el) {
+  // special bonus for those using jQuery
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
+  }
+  var rect = el.getBoundingClientRect();
+  return (
+    (rect.top <= 0
+      && rect.bottom >= 0)
+    ||
+    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+    ||
+    (rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+  );
+}      
+</script>  
+  <script>
+        function alarmshowing(){
+              document.getElementById('freez-alarm').style.display = "block";
+          }
+          function alarmunshowing(){
+              document.getElementById('freez-alarm').style.display = "none";
+          }
+      </script>
+       <script>
+        function alarmshowing2(){
+              document.getElementById('services-hidden-img').style.display = "none";
+              document.getElementById('freez-alarm2').style.display = "block";
+          }
+          function alarmunshowing2(){
+              document.getElementById('freez-alarm2').style.display = "none";
+              document.getElementById('services-hidden-img').style.display = "block";
+          }
+      </script>
+  </body>
+</html>
